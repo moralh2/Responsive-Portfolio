@@ -1,0 +1,199 @@
+html, body { 
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    background-image: url("../images/hypnotize.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/************************************ for the navigaiton */
+
+.nav {
+    border: #cccccc solid 1px;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-links {
+    width: 960px;  
+    height: 80px;   
+    margin: 0 auto;
+}
+
+.nav-links a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.nav-header { 
+    float: left; 
+    background-color: #4aaaa5;
+    line-height: 80px;
+}
+
+.nav h1 {     
+    color: white;    
+    padding: 0 20px
+}
+
+.links-right { 
+    position: relative;
+    float: right; 
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.links-right li { 
+    position: relative;
+    float: left; 
+    color: #cccccc;
+    padding: 0 10px;
+    top: 30px; /* div-height = 80px, line-height = 20px */
+}
+
+.break-border { 
+    border-left: #cccccc solid 2px;
+}
+
+/************************************ for the main content */
+
+.main-wrapper {
+    position: relative;
+    min-height: 100%;
+    margin-bottom: 80px;
+}
+
+.section-wrapper {
+    position: relative;
+    /* float: left; */
+    /* min-height: 100%; */
+}
+
+.section {
+    /* clear: both; */
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: relative;
+    top: 120px; /* nav = 80px + 40px for padding */
+    /* margin-bottom: 80px; */
+    line-height: 30px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.section-header {
+    background-color: white;
+    color: #4aaaa5;
+    padding: 20px;
+}
+
+.section-header hr {
+    margin-top: 20px;
+}
+
+.section-content {
+    position: relative;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.section-items {
+    position: relative;
+    font-size: 18px;
+}
+
+.section-content img {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/************************************ for the footer */
+/* could not get it to react correctly to both scenarios of short and long content */
+.footer {
+    /* float: left; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    /* margin-top: -40px; */
+    position: relative;
+    top: 80px;
+    /* z-index: 1; */
+}
+
+/************************************ for the portfolio items */
+
+.portfolio-item {
+    position: relative;
+    margin: 0 20px 20px 20px;
+    float: left;
+}
+
+.portfolio-item img {
+    position: relative;
+}
+
+.portfolio-image-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0; bottom: 30px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    line-height: 60px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/************************************ for the form in the contact page */
+
+.section form {
+    position: relative;
+    width: 960px;
+}
+
+.form-field {
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+}
+form label {
+    position: absolute;
+    float: left;
+    top: 0;
+}
+
+input[type=text] {
+    width: 920px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 920px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    background-color:  #4aaaa5;
+    color: white;
+}
