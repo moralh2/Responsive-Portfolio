@@ -8,7 +8,10 @@
     .section,
     .section-header,
     .main-wrapper,
-    .section-wrapper {
+    .section-wrapper,
+    .section-form,
+    input,
+    form {
         width: 100%;
         margin: 0 auto;
     }
@@ -98,8 +101,17 @@
         margin: -20px auto auto auto;
         padding-left: 27%;
     }
+
     .footer {
         overflow: hidden;
+    }
+
+    .section-form {
+        padding-right: 10px;
+    }
+
+    form {
+        padding-right: 20px;
     }
 
 }
